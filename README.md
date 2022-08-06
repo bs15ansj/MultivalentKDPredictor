@@ -1,7 +1,7 @@
 # MultivalentKDPredictor
 Mainly for personal use in predicting multivalent dissociation constants for CTB inhibitor, but could also be applied to other systems
 ## Installation
-Simply clone this repository. I may use this repository to learn how to publish to PyPi in the future, in which case you may be able to one day use pip install.
+Simply clone this repository. 
 ## Purpose
 This is primarily for my own use in predicting the binding affinity for bivalent CTB ligands, allthough the general framework could be applied to other systems. The issue is that the most complicated part comes from generating the binding polynomial for a specific system, in this case a hetero-bivalent ligand binding to a receptor with 5 and 5 binding sites. It's likely that I may use this again, however, for calculating the affinity of various multivalent ligands binding to DC-SIGN and so at some point (a very big maybe) might create some function which could automatically generate binding polynomials given constraints of a given system e.g. number of binding sites, number of ligating units per scaffold etc. 
 ## User Guide
